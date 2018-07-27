@@ -1,0 +1,104 @@
+body {
+  width: 462px;
+}
+
+.hide-element {
+  display: none;
+}
+
+.ul {
+  justify-content: center !important;
+}
+
+div {
+  .btn-extra {
+    border-radius: 0px !important;
+    width: 100% !important;
+    &:hover {
+      color: white;
+    }
+  }
+
+  .search-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+
+  .table-color {
+    background-color: #fcfcf9 !important;
+    box-shadow: 0px -3px 6px -2px rgba(0, 0, 0, 0.22);
+  }
+
+  .card-buttons {
+    background-color: #f7f7f4 !important;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .pagination-class .page-item.active .page-link {
+    background-color: #1B7B80 !important;
+    border-color: transparent !important;
+  }
+
+  .bg-color {
+    background-color: #fcfcf9 !important;
+  }
+
+  .wrapper-bg-color {
+    background-color: #fcfcf9 !important;;
+  }
+
+  .tab-content {
+    height: 75vh !important;
+  }
+  .b1 {
+    background-color: #f1f1f1 !important;
+    color: #566787 !important;
+  }
+  table {
+
+    .manage-search {
+      background-color: #457F80 !important;
+      border-radius: 0px !important;
+    }
+
+    .manage-export {
+      background-color: #054969 !important;
+      border-radius: 0px !important;
+    }
+  }
+
+  .manage-project {
+    background-color: #054969 !important;
+  }
+
+  .search-class {
+    background-color: #fff !important;
+    border-left: 0px !important;
+  }
+
+  .search-dialog {
+    border-right: 0px !important;
+  }
+
+  // #0A6961 #0A4669 #0D805B
+  .card-header {
+    background-color: #066E80 !important;
+    border-radius: 0px !important;
+  }
+
+  .card {
+    background-color: #E8E8E8 !important;
+    position: relative;
+  }
+  //.nav-pills .nav-link.active{
+  //    background-color: #0A4669!important;
+  //}
+
+  .nav-pills .nav-link.active {
+    background-color: #f8f8fa !important;
+    color: #566787 !important;
+  }
+}
+
+

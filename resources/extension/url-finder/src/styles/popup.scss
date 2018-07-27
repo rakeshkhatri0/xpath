@@ -1,0 +1,10 @@
+@import "common";
+
+body {
+  background-color: skyblue;
+  padding: 20px;
+}
+
+.rotating {
+  animation: a 2s infinite linear;
+}

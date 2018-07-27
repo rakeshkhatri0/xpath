@@ -1,0 +1,45 @@
+{
+  "manifest_version": 2,
+  "name": "Url Finder",
+  "short_name": "UrlFinder",
+  "description": "Building Url Finder chrome extension using Webpack and ReactJS.",
+  "default_locale": "en",
+  "version": "18.07.16",
+  "minimum_chrome_version": "55",
+  "author": "Madan Sapkota <code@madansapkota.com>",
+  "browser_action": {
+    "default_icon": {
+      "19": "assets/img/19.png",
+      "38": "assets/img/19.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "assets/img/16.png",
+    "48": "assets/img/48.png",
+    "128": "assets/img/128.png"
+  },
+  "options_page": "option.html",
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "js/content.js"
+      ],
+      "match_about_blank": false,
+      "all_frames": false
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "*://*/*",
+    "storage"
+  ],
+  "web_accessible_resources": []
+}
